@@ -20,14 +20,3 @@ Esta carpeta contiene capturas de la librería en escritorio, móvil y tablet, a
 | [14](capturas/14-detalle-movil.png) | Detalle en móvil. |
 | [15](capturas/15-catalogo-tablet.png) | Catálogo en tablet. |
 
-## Generar las capturas
-
-Desde la carpeta del proyecto, con las dependencias instaladas:
-
-```bash
-npx playwright install chromium
-npm run build
-npm run test:e2e
-```
-
-Playwright inicia el servidor local, recorre la aplicación y guarda las imágenes en `evidencias/capturas/`.
